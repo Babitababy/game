@@ -125,20 +125,20 @@ Button buttonReset = (Button)findViewById(R.id.button_reset);
     private void player1Wins()
     {
         player1points++;
-        Toast.makeText(this,"Player1 won!",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Player 1 has won!",Toast.LENGTH_LONG).show();
         updatePointsText();
         resetBoard();
     }
     private void player2Wins()
     {
         Player2Points++;
-        Toast.makeText(this,"Player2 won!",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Player 2 has won!",Toast.LENGTH_LONG).show();
         updatePointsText();
         resetBoard();
     }
     private void draw()
     {
-       Toast.makeText(this,"Draw",Toast.LENGTH_LONG).show();
+       Toast.makeText(this,"Drawing this line",Toast.LENGTH_LONG).show();
        resetBoard();
     }
     private void updatePointsText()
